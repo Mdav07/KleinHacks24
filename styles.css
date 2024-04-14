@@ -1,0 +1,130 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: whitesmoke;
+
+}
+
+p {
+    font-size: 16px;
+    color: whitesmoke;
+
+}body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #111;
+}
+
+
+.game-area {
+    float: inline-start;
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background-color: #222;
+}
+
+
+.paddle {
+    position: absolute;
+    width: 25px;
+    height: 100px;
+    background-color: #fff;
+}
+
+
+#leftPaddle {
+    left: 5px;
+}
+
+
+#rightPaddle {
+    right: 5px;
+}
+
+
+.ball {
+    position: absolute;
+    width: 40px;
+    height:40px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-size: 300%;
+}
+
+h2 {
+    position: fixed;
+    text-align: center;
+    font-size:200%;
+    padding: 15px;
+    color: white;
+    top: 80px;
+    left: 43.5%;
+    
+    
+}
+
+.button1 {
+    background-color: whitesmoke; 
+    border: purple;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 25;
+    left: 43.5%;
+    top: 100px;
+    float: inline-end;
+}
+.button2 {
+    background-color: whitesmoke; 
+    border: purple;
+    color: black;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 25;
+    left: 43.5%;
+    top: 100px;
+    float: inline-end;
+}
+
+.button3{
+    background-color: whitesmoke; 
+    border: #808080;
+    color: black;
+    padding: 15px 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 150%;
+    left: 42%;
+    bottom: 8%;
+    right:0;
+    width:15%;
+    float: inline-end;
+    position:absolute;
+    height: 7%;
+}
